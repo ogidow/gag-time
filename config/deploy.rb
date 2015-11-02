@@ -1,4 +1,6 @@
 lock '3.4.0'
+APP_NAME = "gagtime"
+GIT_URL = "https://github.com/ogidow/gag-time"
 
 set :application, '${APP_NAME}'
 set :repo_url, '${GIT_URL}'

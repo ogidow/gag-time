@@ -1,7 +1,8 @@
 set :stage, :development
-role :app, %w{root@$160.16.80.94}
-role :web, %w{root@$169.16.80.94}
-role :db, %w{root@$160.16.80.94}
+#ipaddress = "160.16.80.94"
+role :app, %w{root@160.16.80.94}
+role :web, %w{root@169.16.80.94}
+role :db, %w{root@160.16.80.94}
 
 server '160.16.80.94',
     user: 'root',
