@@ -2,11 +2,11 @@ lock '3.4.0'
 APP_NAME = "gagtime"
 GIT_URL = "https://github.com/ogidow/gag-time"
 
-set :application, '${APP_NAME}'
-set :repo_url, '${GIT_URL}'
+set :application, 'gagtime'
+set :repo_url, 'git@github.com:ogidow/gag-time.git'
 
 set :branch, 'master'
-set :deploy_to, '/var/www/app/${APP_NAME}'
+set :deploy_to, '/var/www/app/gagtime'
 set :scm, :git
 set :log_level, :debug
 set :pty, true
