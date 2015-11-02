@@ -1,7 +1,7 @@
 set :stage, :development
-role :app, %w{root@${IP_ADDRESS}}
-role :web, %w{root@${IP_ADDRESS}}
-role :db, %w{root@${IP_ADDRESS}}
+role :app, %w{root@$160.16.80.94}
+role :web, %w{root@$169.16.80.94}
+role :db, %w{root@$160.16.80.94}
 
 server '160.16.80.94',
     user: 'root',
